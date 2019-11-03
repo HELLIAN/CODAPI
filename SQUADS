@@ -1,0 +1,50 @@
+Lookup Current Squad Challenge -
+https://squads.callofduty.com/api/v2/challenge/lookup/current
+
+
+Lookup Squad that you are in -
+https://squads.callofduty.com/api/v2/squad/lookup/mine/
+
+
+Lookup Squad By Name -
+https://squads.callofduty.com/api/v2/squad/lookup/name/{Squad Name}
+
+
+Lookup Squad by platform and name - 
+https://squads.callofduty.com/api/v2/squad/lookup/platform/{platform}/gamer/{gamertag}
+
+
+Join Squad by name -
+https://squads.callofduty.com/api/v2/squad/join/{Squad Name}
+
+
+Leave Current Squad - 
+https://squads.callofduty.com/api/v2/squad/leave/
+
+
+Report Squad By Name -
+https://squads.callofduty.com/api/v2/squad/report/{Squad Name}
+
+
+Create Squad by Name -
+https://squads.callofduty.com/api/v2/squad/create/{Squad Name}
+
+
+Current Squad Remove All Members -
+https://squads.callofduty.com/api/v2/squad/removeMembers
+
+
+Current Squad Remove Member By Name -
+https://squads.callofduty.com/api/v2/squad/removeMember/{gamertag}
+
+
+Feedback (Unsure if this is send or get feed back) - 
+https://squads.callofduty.com/api/v2/user/feedback
+
+
+Lookup Current Rewards -
+https://squads.callofduty.com/api/v2/rewards/lookup/current
+
+
+Claim Current Rewards (not sure by name or defualt all) - 
+https://squads.callofduty.com/api/v2/rewards/claim
