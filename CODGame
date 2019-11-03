@@ -1,0 +1,24 @@
+NOTE: ALL ENDPOINTS REQUIRE SSO COOKIE IN HEADER TO GET DATA
+
+Get COD Profile Data By Title, Platform, GamerTag -
+https://my.callofduty.com/api/papi-client/crm/cod/v2/title/{title}/platform/{platform}/gamer/{gamertag}/profile
+
+
+Get COD Matches Data played by Title, Platform, Gamertag, Days - 
+https://my.callofduty.com/api/papi-client/crm/cod/v2/title/{title}/platform/{platform}/gamer/{gamertag}/matches/days/{Days in integer}
+
+
+Get COD Multiplayer Friends Data by Title, Platform, Gamertag -
+https://my.callofduty.com/api/papi-client/stats/cod/v1/title/{title}/platform/{platform}/gamer/{gamertag}/profile/friends/type/mp
+
+
+Get COD Multiplayer all Matches Data by Title, Platform, GamerTag, Start, End -
+https://my.callofduty.com/api/papi-client/crm/cod/v2/title/{title}/platform/{platform}/gamer/{gamertag}/matches/mp/start/0/end/0/details
+
+
+Get Your Friend Feed -
+https://my.callofduty.com/api/papi-client/userfeed/v1/friendFeed/rendered/
+
+
+Get COD Multiplayer Profile Data by Title, Platform, Gamertag - 
+https://my.callofduty.com/api/papi-client/stats/cod/v1/title/{title}/platform/{platform}/gamer/{gamertag}/profile/type/mp
