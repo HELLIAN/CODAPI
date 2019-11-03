@@ -1,3 +1,5 @@
+NOTE: ALL ENDPOINTS REQUIRE SSO COOKIE IN HEADER TO GET DATA
+
 Lookup Current Squad Challenge -
 https://squads.callofduty.com/api/v2/challenge/lookup/current
 
