@@ -11,4 +11,4 @@ SQUADS -
  End points for Call Of Duty Squads
 
 CODGame -
- End points for Call Of Duty
+ End points for Call Of Duty Game and User Data
