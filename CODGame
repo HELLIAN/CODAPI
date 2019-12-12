@@ -32,3 +32,7 @@ https://my.callofduty.com/api/papi-client/stats/cod/v1/title/{title}/platform/{p
 
 Get COD Specific Match data by Title, Platform, MatchID -
 https://my.callofduty.com/api/papi-client/ce/v1/title/{title}/platform/{platform}/match/{MatchID}/matchMapEvents
+
+
+Get COD Community Data by Title, Platform, MapName -
+https://my.callofduty.com/api/papi-client/ce/v1/title/{title}/platform/{platform}/gameType/mp/map/{map}/mode
