@@ -1,4 +1,10 @@
 NOTE: ALL ENDPOINTS REQUIRE SSO COOKIE IN HEADER TO GET DATA
+MATCHID Can be found in previous match details and also in during actual game play located in the bottom left corner of the screen.
+The MatchID required for data pull is the ID in the bottom left minus the last digit
+For example; The numbers on the bottom left of the screen 27510072941469910857, would be 2751007294146991085 for 
+matchID in the API endpoint below.
+
+********************************************************************************************************************************
 
 Get COD Profile Data By Title, Platform, GamerTag -
 https://my.callofduty.com/api/papi-client/crm/cod/v2/title/{title}/platform/{platform}/gamer/{gamertag}/profile
@@ -22,3 +28,7 @@ https://my.callofduty.com/api/papi-client/userfeed/v1/friendFeed/rendered/
 
 Get COD Multiplayer Profile Data by Title, Platform, Gamertag - 
 https://my.callofduty.com/api/papi-client/stats/cod/v1/title/{title}/platform/{platform}/gamer/{gamertag}/profile/type/mp
+
+
+Get COD Specific Match data by Title, Platform, MatchID -
+https://my.callofduty.com/api/papi-client/ce/v1/title/{title}/platform/{platform}/match/{MatchID}/matchMapEvents
