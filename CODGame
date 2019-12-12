@@ -36,3 +36,7 @@ https://my.callofduty.com/api/papi-client/ce/v1/title/{title}/platform/{platform
 
 Get COD Community Data by Title, Platform, MapName (not yet working) -
 https://my.callofduty.com/api/papi-client/ce/v1/title/{title}/platform/{platform}/gameType/mp/map/{map}/mode
+
+
+Get COD Relationship (Returns data but not fully populated) -
+https://www.callofduty.com/api/papi-client/relationships/v1/list/
